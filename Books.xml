@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE Books [
+<!ELEMENT Books (heading,book*)>
+<!ELEMENT Book (title,author,publisher,edition,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<Books>
+	<heading>
+		Web Technologies - Book
+	</heading>
+	
+	<book>
+		<title>
+			Web Technologies: HTML, JAVASCRIPT, PHP, JAVA, JSP, ASP.NET, XML and Ajax, Black Book: HTML, Javascript, PHP, Java, Jsp, XML and Ajax, Black Book
+		</title>
+		<author>
+			Kogent Learning Solutions Inc
+		</author>
+		<publisher>
+			Kogent Learning Solutions Inc. and Dreamtech Press 
+		</publisher>
+		<edition>
+			5th Edition
+		</edition>
+		<price>
+			Rs. 700/-
+		</price>
+	</book>
+</Books>
