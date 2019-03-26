@@ -1,0 +1,10 @@
+WAP in XMl for creation of DTD which specifies set of rule. Create a shift in CSS & display the document in Browser
+
+Books elements
+    Book
+    Heading
+    title
+    Author
+    Publisher
+    Edition
+    Price
