@@ -22,19 +22,33 @@ public class Calculator extends Applet
             Button b8 = new Button("8");
             Button b9 = new Button("9");
             Button b10 = new Button("10");        
-            Button b11 = new Button("+");        
-            Button b12 = new Button("-");
-            Button b14 = new Button("/");
-            Button b15 = new Button("*");
-            Button b16 = new Button("=");
-            Button b17 = new Button("CLEAR");
+            Button add = new Button("+");        
+            Button sub = new Button("-");
+            Button div = new Button("/");
+            Button mul = new Button("*");
+            Button equal = new Button("=");
+            Button clear = new Button("CLEAR");
 
             GridLayout grid = new GridLayout(5,4);
 
             setLayout(grid);
             
             add(b1);
-            add(b1);
+            add(b2);
+            add(b3);
+            add(b4);
+            add(b5);
+            add(b6);
+            add(b7);
+            add(b8);
+            add(b9);
+            add(b10);
+            add(add);
+            add(sub);
+            add(mul);
+            add(div);
+            add(equal);
+
         }
         
         
